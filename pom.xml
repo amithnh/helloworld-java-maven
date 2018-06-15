@@ -40,14 +40,14 @@
   
 <distributionManagement>
     <repository>
-        <id>cts-nexus</id>
-        <name>bd7e4d6b271d-releases</name>
-        <url>http://13.232.53.166:8081/nexus/content/repositories/3dx/</url>
+        <id>deployment</id>
+        <name>Internal releases</name>
+        <url>http://35.200.250.196:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-        <id>cts-nexus</id>
-        <name>bd7e4d6b271d-snapshots</name>
-        <url>http://13.232.53.166:8081/nexus/content/repositories/3dx/</url>
+        <id>deployment</id>
+        <name>Snapshot snapshots</name>
+        <url>http://35.200.250.196:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
